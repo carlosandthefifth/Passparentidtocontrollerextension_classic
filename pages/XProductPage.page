@@ -1,0 +1,6 @@
+<apex:page standardcontroller="x_product__c" extensions="XProductHelperClass" >
+	<apex:form >
+	  	<apex:param name="caseid" value="{!x_product__c.Case__c}" assignTo="{!caseID}" />
+		<apex:commandbutton id="saveBtn" value="Save" action="{!save}"/>
+	</apex:form>
+</apex:page>
